@@ -2,16 +2,16 @@ package com.devsuperior.dscommerce.dto;
 
 public class FieldMessage {
 
-    private String fielName;
+    private String fieldName;
     private String message;
 
-    public FieldMessage(String fielName, String message) {
-        this.fielName = fielName;
+    public FieldMessage(String fieldName, String message) {
+        this.fieldName = fieldName;
         this.message = message;
     }
 
-    public String getFielName() {
-        return fielName;
+    public String getFieldName() {
+        return fieldName;
     }
 
     public String getMessage() {
