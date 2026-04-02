@@ -1,23 +1,21 @@
-package com.devsuperior.dscommerce.dto;
+package com.devsuperior.dscommerce.entities;
 
-import com.devsuperior.dscommerce.entities.Category;
-
-public class CategoryDTO {
+public class ClientDTO {
 
     private Long id;
     private String name;
 
-    CategoryDTO() {
+    ClientDTO() {
 
     }
 
-    public CategoryDTO(Long id, String name) {
+    public ClientDTO(Long id, String name) {
         this.id = id;
         this.name = name;
     }
 
 
-    public CategoryDTO(Category entity) {
+    public ClientDTO(User entity) {
         id = entity.getId();
         name = entity.getName();
     }
